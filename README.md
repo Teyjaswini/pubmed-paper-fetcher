@@ -1,2 +1,3 @@
-# pubmed-paper-fetcher
-"A Python CLI tool to fetch PubMed research papers and save to CSV."  Keep it Public.
+# PubMed Paper Fetcher
+
+This is a Python command-line tool that fetches the latest research papers from PubMed based on any keyword provided by the user and optionally saves the results into a CSV file. It uses the NCBI PubMed API to search for relevant papers and fetches key details such as PubMed ID, Title, Publication Date, Non-academic Authors, and Corresponding Author Email. The tool is built using Python 3.13, Poetry for dependency management, and the `requests` library for API calls. To run the project: first install dependencies using `poetry install`, then run the tool with a search query using `poetry run get-papers-list "your search query"`, and to save results to CSV, use `poetry run get-papers-list "your search query" -f papers.csv`. A sample `papers.csv` file is included in the repository. Created by Teyjaswini Wakhare.
